@@ -22,6 +22,13 @@ int main() {
     }
 
     printf("Memoria asignada exitosamente para %d enteros.\n", n);
+    
+        // Inicializar y mostrar los elementos del arreglo
+    printf("Inicializando y mostrando los elementos del arreglo:\n");
+    for (int i = 0; i < n; i++) {
+        arr[i] = i * 100; // Asignamos un valor simple para el ejemplo
+        printf("Elemento en indice %d: %d\n", i, arr[i]);
+    }
 
     // En un programa real, aquí se usaría el arreglo 'arr'
     // Por ejemplo, se podrían llenar sus elementos o realizar operaciones con ellos.
