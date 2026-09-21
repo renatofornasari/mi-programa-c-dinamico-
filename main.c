@@ -40,5 +40,6 @@ int main() {
 
     //Ya tendríamos la memoria liberada.
 
+    printf("Programa finalizado y memoria liberada.\n");
     return 0; // Terminación exitosa del programa
 }
